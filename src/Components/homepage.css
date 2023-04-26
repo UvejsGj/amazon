@@ -117,10 +117,10 @@ h5 {
 
 .grid {
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 190px;
     display: grid;
     position: relative;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 400px);
     flex-direction: column;
 }
 
@@ -330,7 +330,396 @@ h5 {
     background-color: white;
     display: grid;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
+} 
+
+.freq {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.img {
+    position: relative;
+    margin-top: 80px;
+}
+
+.grid3 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
+} 
+
+.inter {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.img1 {
+    position: relative;
+    margin-top: 80px;
+}
+
+.grid4 {
+    margin-top: 50px;
+    margin-left: 190px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 400px);
+    flex-direction: column;
+}
+
+.plane {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.planeimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.bag {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.bagimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.sink {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.sinkimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.watch {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.watchimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.hplane {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.hbag {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    text-align: start;
+}
+
+.hsink {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.hwatch {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    text-align: start;
+}
+
+.grid5 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
+} 
+
+.img2 {
+    position: relative;
+    margin-top: 80px;
+}
+
+.top {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.grid6 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
+} 
+
+.img3 {
+    position: relative;
+    margin-top: 80px;
+}
+
+.popular {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.grid7 {
+    margin-top: 50px;
+    margin-left: 190px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 400px);
+    flex-direction: column;
+}
+
+.ram {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ramimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.ssd {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ssdimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.cooler {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.coolerimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.gpu {
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.gpuimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.hram {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.hssd {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    text-align: start;
+}
+
+.hcooler{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.hgpu {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    text-align: start;
+}
+
+
+.grid8 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
+} 
+
+.img4 {
+    position: relative;
+    margin-top: 80px;
+}
+
+.books {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.grid9 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
+} 
+
+.img5 {
+    position: relative;
+    margin-top: 80px;
+}
+
+.shampoo {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.grid10 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
     grid-template-columns: repeat(4, 1fr);
     flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    width: 1500px;
 } 

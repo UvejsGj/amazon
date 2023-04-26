@@ -14,6 +14,25 @@ import laptop from "../Images/laptop.jpg"
 import electronics from "../Images/electronics.jpg"
 import makeup from "../Images/makeup.jpg"
 import dollap from "../Images/dollap.jpg"
+import led from "../Images/led.jpg"
+import cas from "../Images/case.jpg"
+import dino from "../Images/dino.jpg"
+import plane from "../Images/plane.jpg"
+import bag from "../Images/bags.jpg"
+import sink from "../Images/water.jpg"
+import watch from "../Images/watch.jpg"
+import pipe from "../Images/pipe.jpg"
+import nail from "../Images/gozhd.jpg"  
+import asus from "../Images/asus.jpg"
+import cpu from "../Images/cpu.jpg"
+import ram from "../Images/ram.jpg"
+import ssd from "../Images/ssd.jpg"
+import gpu from "../Images/gpu.jpg"
+import cooler from "../Images/cooler.jpg"
+import green from "../Images/green.jpg"
+import purple from "../Images/purple.jpg"
+import mast from "../Images/mast.jpg"
+import shampoo from "../Images/shampoo.jpg"
 
 function HomePage() {
     return(
@@ -54,10 +73,84 @@ function HomePage() {
         </div>
 
         <div className="grid2">
-                <div> <img src={dollap} /> </div>
-                <div> <img src={dollap} /> </div>
-                <div> <img src={dollap} /> </div>
-                <div> <img src={dollap} /> </div>
+            <h1 className="freq"> Frequently repurchased in Home </h1>
+                <div> <img className="img" src={dollap} /> </div>
+                <div> <img className="img" src={led} /> </div>
+                <div> <img className="img" src={dollap} /> </div>
+                <div> <img className="img" src={led} /> </div>
+                <div> <img className="img" src={dollap} /> </div>
+                <div> <img className="img" src={led} /> </div>
+        </div>
+
+        <div className="grid3">
+            <h1 className="inter"> International top sellers in Home </h1>
+                <div> <img className="img1" src={cas} /> </div>
+                <div> <img className="img1" src={dino} /> </div>
+                <div> <img className="img1" src={cas} /> </div>
+                <div> <img className="img1" src={dino} /> </div>
+                <div> <img className="img1" src={cas} /> </div>
+                <div> <img className="img1" src={dino} /> </div>
+        </div>
+
+        <div className="grid4">
+            <div className="plane"> <h1 className="hplane"> Kids Shop </h1> <img className="planeimg" src={plane} /></div>
+            <div className="bag"> <h1 className="hbag"> Frequently repurchased in <br/> Drugstore </h1> <img className="bagimg" src={bag} /> </div>
+            <div className="sink"> <h1 className="hsink"> Home refresh ideas </h1> <img className="sinkimg" src={sink} /></div>
+            <div className="watch"> <h1 className="hwatch"> Shop activity trackers and <br/> smartwatches </h1> <img className="watchimg" src={watch} /></div>
+        </div>
+
+        <div className="grid5">
+            <h1 className="top"> International top sellers in Home Improvement </h1>
+                <div> <img className="img2" src={pipe} /> </div>
+                <div> <img className="img2" src={nail} /> </div>
+                <div> <img className="img2" src={pipe} /> </div>
+                <div> <img className="img2" src={nail} /> </div>
+                <div> <img className="img2" src={pipe} /> </div>
+                <div> <img className="img2" src={nail} /> </div>
+        </div>
+
+        <div className="grid6">
+            <h1 className="popular"> Popular products in PC internationally </h1>
+                <div> <img className="img3" src={cpu} /> </div>
+                <div> <img className="img3" src={asus} /> </div>
+                <div> <img className="img3" src={cpu} /> </div>
+                <div> <img className="img3" src={asus} /> </div>
+                <div> <img className="img3" src={cpu} /> </div>
+                <div> <img className="img3" src={asus} /> </div>
+        </div>
+
+        <div className="grid7">
+            <div className="ram"> <h1 className="hram"> Ram Memory </h1> <img className="ramimg" src={ram} /></div>
+            <div className="ssd"> <h1 className="hssd"> SSD M.2 Storage</h1> <img className="ssdimg" src={ssd} /> </div>
+            <div className="cooler"> <h1 className="hcooler"> CPU Cooler </h1> <img className="coolerimg" src={cooler} /></div>
+            <div className="gpu"> <h1 className="hgpu"> GPU - Nvidia </h1> <img className="gpuimg" src={gpu} /></div>
+        </div>
+
+        <div className="grid8">
+            <h1 className="books"> Top Sellers in Books for you </h1>
+                <div> <img className="img4" src={green} /> </div>
+                <div> <img className="img4" src={purple} /> </div>
+                <div> <img className="img4" src={green} /> </div>
+                <div> <img className="img4" src={purple} /> </div>
+                <div> <img className="img4" src={green} /> </div>
+                <div> <img className="img4" src={purple} /> </div>
+        </div>
+
+        <div className="grid9">
+            <h1 className="shampoo"> Popular products in Beauty internationally </h1>
+                <div> <img className="img5" src={mast} /> </div>
+                <div> <img className="img5" src={shampoo} /> </div>
+                <div> <img className="img5" src={mast} /> </div>
+                <div> <img className="img5" src={shampoo} /> </div>
+                <div> <img className="img5" src={mast} /> </div>
+                <div> <img className="img5" src={shampoo} /> </div>
+        </div>
+
+        <div className="grid10">
+            <div className="plane"> <h1 className="hplane"> Kids Shop </h1> <img className="planeimg" src={plane} /></div>
+            <div className="bag"> <h1 className="hbag"> Frequently repurchased in <br/> Drugstore </h1> <img className="bagimg" src={bag} /> </div>
+            <div className="sink"> <h1 className="hsink"> Home refresh ideas </h1> <img className="sinkimg" src={sink} /></div>
+            <div className="watch"> <h1 className="hwatch"> Shop activity trackers and <br/> smartwatches </h1> <img className="watchimg" src={watch} /></div>
         </div>
 
         </>
