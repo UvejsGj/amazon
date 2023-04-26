@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+.navbar {
+    background-color: #131921;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-top: 0;
+    height: 75px;
+}
+
+.amazonlogo {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 10px;
+    top: 10px;
+}
+
+.deliver {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    left: 150px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.search {
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    left: 300px;
+    width: 1000px;
+    margin: 25px;
+    margin-top: 15px;
+}
+
+.magnifier {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #F3A847;
+    padding: 6px;
+    top: 15px;
+    right: 580px;
+}
+
+.eu {
+    position: absolute;
+    color: white;
+    margin: 10px 50px 10px 1400px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.lists {
+    position: absolute;
+    color: white;
+    margin: 10px 50px 10px 1500px;
+    text-align: start;
+}
+
+.orders {
+    position: absolute;
+    color: white;
+    margin: 10px 50px 10px 1680px;
+    text-align: start;
+}
+
+.cart {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin: 10px 50px 10px 1780px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.undernavbar {
+    background-color: #232F3E;
+    position: relative;
+    width: auto;
+    top: -15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+}
+
+h5 {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.shop {
+    font-size: 16.6px;
+    position: relative;
+    margin-left: 1050px;
+    margin-top: 15px;
+}
+
+.couch {
+    position: absolute;
+    margin-left: -700px;
+    width: 1500px;
+    top: 120px;
+    z-index: -1;
+}
+
+.grid {
+    margin-top: 200px;
+    margin-left: 100px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+}
+
+.gaming {
+    /* position: absolute; */
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    color: black;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.dining {
+    /* position: absolute; */
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    left: 400px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.health {
+    /* position: absolute; */
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    height: 400px;
+    color: black;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.dress {
+    /* position: absolute; */
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.laptop {
+    /* position: absolute; */
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    left: 400px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.electronics {
+    /* position: absolute; */
+    background-color: white;
+    width: 300px;
+    left: 800px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.makeup {
+    /* position: absolute; */
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    left: 1300px;
+    height: 400px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.signin {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+}
+
+.h1i {
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.button {
+    background-color: #F3A847;
+    border: none;
+    outline: none;
+    width: 255px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 40px
+}
+
+.headsetimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 150px;
+    margin-left: -100px;
+}
+
+.h1g {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.glassimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 150px;
+    margin-left: -120px;
+}
+
+.h1s {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.healthimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+
+.h1h {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.dressimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.h1d {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.laptopimg {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -120px;
+    height: 150px;
+}
+
+.h1l {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.electronicsimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 300px;
+    margin-left: -150px;
+}
+
+.h1e {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.makeupimg {
+    position: absolute;
+    margin-top: 100px;
+    height: 250px;
+    width: 240px;
+    margin-left: -120px;
+}
+
+.h1b {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.grid2 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+} 
