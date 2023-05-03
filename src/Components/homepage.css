@@ -722,6 +722,7 @@ h5 {
     margin-left: 200px;
     position: relative;
     width: 1500px;
+    margin-bottom: 50px;
 } 
 
 .footer {
@@ -731,7 +732,8 @@ h5 {
     margin-top: 50px;
     width: 1902px;
     display: flex;
-    padding-left: 200px;
+    padding-left: 410px;
+    padding-top: 80px;
     flex-direction: row;
     box-sizing: border-box;
 }
@@ -741,17 +743,66 @@ li {
     list-style-type: none;
     text-align: start;
     color: white;
-    margin: 20px;
+    font-size: 13px;
+    margin: 10px;
 }
 
 .h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .get {
     position: relative;
 }
 
+h3{
+    color: white;
+}
+
 .make {
     position: relative;
+}
+
+.above {
+    background-color: #485769;
+    position: absolute;
+    height: 90px;
+    width: 1902px;
+    z-index: 999px;
+
+}
+
+.amazonlogofooter {
+        width: 120px;
+        height: 50px;
+        margin: 20px;
+}
+
+.belowfooter {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.globe {
+    border: 2px solid #585F6A;
+    border-radius: 5px;
+    margin: 35px;
+    font-size: 15px;
+}
+
+.euro {
+    border: 2px solid #585F6A;
+    border-radius: 5px;
+    margin: 35px;
+    font-size: 15px;
+}
+
+.usa {
+    border: 2px solid #585F6A;
+    border-radius: 5px;
+    margin: 35px;
+    font-size: 15px;
 }

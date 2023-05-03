@@ -33,6 +33,9 @@ import green from "../Images/green.jpg"
 import purple from "../Images/purple.jpg"
 import mast from "../Images/mast.jpg"
 import shampoo from "../Images/shampoo.jpg"
+import { BsGlobe2 } from "react-icons/bs"
+import { BsCurrencyEuro } from "react-icons/bs"
+import { GiUsaFlag } from "react-icons/gi"
 
 function HomePage() {
     return(
@@ -153,6 +156,11 @@ function HomePage() {
             <div className="watch"> <h1 className="hwatch"> Shop activity trackers and <br/> smartwatches </h1> <img className="watchimg" src={watch} /></div>
         </div>
 
+            <div className="above">
+                <h3> Back to top </h3>
+            </div>
+
+
 
         <div className="footer">
             <div className="get">
@@ -201,7 +209,16 @@ function HomePage() {
                     <li> Help </li>
                 </ul>
             </div>
+
+            <div className="belowfooter">
+                <img className="amazonlogofooter" src={amazon} />
+                <h3 className="globe"> <BsGlobe2/> English</h3>
+                <h3 className="euro"> <BsCurrencyEuro/> EUR - Euro </h3>
+                <h3 className="usa"> <GiUsaFlag/> United State </h3>
+            </div>
         </div>
+
+        
         </>
     )
 }
