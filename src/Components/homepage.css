@@ -723,3 +723,35 @@ h5 {
     position: relative;
     width: 1500px;
 } 
+
+.footer {
+    background-color: #232F3E;
+    position: absolute;
+    height: 500px;
+    margin-top: 50px;
+    width: 1902px;
+    display: flex;
+    padding-left: 200px;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    text-align: start;
+    color: white;
+    margin: 20px;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.get {
+    position: relative;
+}
+
+.make {
+    position: relative;
+}
